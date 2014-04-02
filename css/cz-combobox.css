@@ -1,0 +1,32 @@
+.cz-select{
+	height:25px;
+	width:200px;
+	font-size:14px;
+	border:solid 1px #e4e4e4;
+	position:relative;
+}
+.cz-select ul{
+	margin:0px;
+	padding:0px;
+	width:200px;
+	border:solid 1px #e4e4e4;
+	background-color:#fff;
+	position:absolute;
+	top:25px;
+	left:-1px;
+}
+.cz-select li,.cz-select div{
+	padding:0px 10px;
+	height:25px;
+	line-height:25px;
+	list-style:none;
+	background-color:#fff;
+}
+
+.cz-select .hover{
+	background-color:#1DBBDA;
+	color:#fff;
+}
+.cz-select div:focus{
+	border:solid 1px #1DBBDA;
+}
