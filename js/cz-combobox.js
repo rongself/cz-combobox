@@ -56,8 +56,15 @@
         }
 		self.open = function(){
 			if(self.combobox.content.is(':hidden')){
-                var heght = parseInt(self.combobox.content.height())/2;
-				self.combobox.content.show().css('top',-heght).animate({'top':'25px','opacity':'1'},120);
+                var heght = parseInt(self.combobox.content.outerHeight())/2;
+                var theight = parseInt(self.combobox.outerHeight());
+                var twidth = parseInt(self.combobox.outerWidth());
+                self.combobox.content.children('li').css({
+                    'height':theight,
+                    'line-height':theight+'px',
+                    'width':twidth-26
+                });
+				self.combobox.content.show().css('top',-heght).animate({'top':0,'opacity':'1'},120);
             }
 		}
 		

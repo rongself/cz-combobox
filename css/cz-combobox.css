@@ -8,19 +8,16 @@
 .cz-select ul{
 	margin:0px;
 	padding:0px;
-	width:200px;
 	border:solid 1px #e4e4e4;
 	background-color:#fff;
 	position:absolute;
 	top:25px;
-	left:-1px;
+	left:0px;
+    z-index: 999;
 }
 .cz-select li,.cz-select div{
 	padding:0px 10px;
-	height:25px;
-	line-height:25px;
 	list-style:none;
-	background-color:#fff;
 }
 
 .cz-select .hover{

@@ -1,0 +1,51 @@
+body{
+    background-color: #1DBBDA;
+    font-family: "Trebuchet MS", "Helvetica", sans-serif;
+}
+.cz-select div{
+    line-height: 35px;
+    font-weight: bold;
+    background-color: #1DBBDA;
+    border: solid 3px #ffffff;
+    color: #fff;
+}
+
+.cz-select{
+    height: 35px;
+    width: 350px;
+    border: none;
+}
+
+.cz-select ul{
+    color: #ffffff;
+    font-weight: bold;
+    margin:0px;
+    padding:0px;
+    border:solid 3px #ffffff;
+    background-color: #1DBBDA;
+}
+
+.cz-select .hover{
+    background-color:#ffffff;
+    color:#1DBBDA;
+}
+
+.box{
+    width: 350px;
+    margin: 20% auto 0 auto;
+}
+
+h1.title{
+    color: #ffffff;
+    font-size: 32px;
+}
+
+.footer{
+    position: absolute;
+    bottom: 0px;
+    right: 20px;
+}
+.footer a{
+    color: #ffffff;
+    text-decoration: none;
+}
